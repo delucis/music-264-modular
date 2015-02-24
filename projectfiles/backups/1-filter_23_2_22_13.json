@@ -1,0 +1,57 @@
+{
+	"pattrstorage" : 	{
+		"name" : "1-filter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 343.379913 ],
+					"filter-gain" : [ 5.916186 ],
+					"filter-q" : [ 1.5 ],
+					"filter-volume" : [ -22.451443 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 146.627274 ],
+					"filter-gain" : [ 6.368696 ],
+					"filter-q" : [ 1.5 ],
+					"filter-volume" : [ -22.451443 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 324.506378 ],
+					"filter-gain" : [ 16.0 ],
+					"filter-q" : [ 1.5 ],
+					"filter-volume" : [ -4.036746 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"filter-menu" : [ "lowpass" ],
+					"filter-freq" : [ 2.370994 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
+					"filter-volume" : [ -4.036746 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

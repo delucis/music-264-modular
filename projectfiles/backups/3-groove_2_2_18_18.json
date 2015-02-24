@@ -1,0 +1,26 @@
+{
+	"pattrstorage" : 	{
+		"name" : "3-groove",
+		"slots" : 		{
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"duration" : [ 209 ],
+					"duration-rand" : [ 0 ],
+					"metro-speed" : [ 177 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 0.5 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.3 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 0 ],
+					"switch" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

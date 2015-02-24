@@ -1,0 +1,43 @@
+{
+	"pattrstorage" : 	{
+		"name" : "1-groove",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"duration" : [ 106 ],
+					"duration-rand" : [ 0 ],
+					"metro-speed" : [ 105 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 0 ],
+					"switch" : [ 1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"duration" : [ 627 ],
+					"duration-rand" : [ 0 ],
+					"metro-speed" : [ 263 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 2.0 ],
+					"pitch-rand" : [ 99 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 1 ],
+					"switch" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

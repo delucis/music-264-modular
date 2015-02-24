@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "2-groove",
+		"slots" : 		{
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
+					"metro-speed" : [ 105 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 1 ],
+					"switch" : [ 1 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
+					"metro-speed" : [ 105 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 1 ],
+					"switch" : [ 1 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
+					"metro-speed" : [ 105 ],
+					"on/off" : [ 0 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 1 ],
+					"switch" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
