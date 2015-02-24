@@ -9,7 +9,7 @@
 					"filter-freq" : [ 3453.731201 ],
 					"filter-gain" : [ 5.916186 ],
 					"filter-q" : [ 1.5 ],
-					"filter-volume" : [ -70.0 ]
+					"filter-volume" : [ -31.496063 ]
 				}
 
 			}
@@ -22,30 +22,6 @@
 					"filter-gain" : [ 5.916186 ],
 					"filter-q" : [ 1.5 ],
 					"filter-volume" : [ -31.496063 ]
-				}
-
-			}
-,
-			"3" : 			{
-				"id" : 3,
-				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
-					"filter-freq" : [ 638.783691 ],
-					"filter-gain" : [ 6.855807 ],
-					"filter-q" : [ 0.585594 ],
-					"filter-volume" : [ -70.0 ]
-				}
-
-			}
-,
-			"4" : 			{
-				"id" : 4,
-				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
-					"filter-freq" : [ 638.783691 ],
-					"filter-gain" : [ 6.855807 ],
-					"filter-q" : [ 0.585594 ],
-					"filter-volume" : [ -70.0 ]
 				}
 
 			}
@@ -65,11 +41,11 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
-					"filter-freq" : [ 638.783691 ],
-					"filter-gain" : [ 6.855807 ],
+					"filter-menu" : [ "lowpass" ],
+					"filter-freq" : [ 2.914958 ],
+					"filter-gain" : [ 1.0 ],
 					"filter-q" : [ 0.585594 ],
-					"filter-volume" : [ -10.341208 ]
+					"filter-volume" : [ -13.013124 ]
 				}
 
 			}
