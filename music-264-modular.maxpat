@@ -52,7 +52,7 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5.0, 100.0, 70.0, 20.0 ],
-					"text" : "Initialise"
+					"text" : "Reset"
 				}
 
 			}
@@ -66,7 +66,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 297.0, 539.0, 60.0, 19.0 ],
+					"patching_rect" : [ 312.0, 539.0, 60.0, 19.0 ],
 					"text" : "Store"
 				}
 
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 294.0, 510.0, 127.0, 20.0 ],
+					"patching_rect" : [ 309.0, 510.0, 127.0, 20.0 ],
 					"presentation_rect" : [ 292.0, 510.0, 0.0, 0.0 ],
 					"text" : "2) Store Preset"
 				}
@@ -316,7 +316,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 571.0, 125.0, 20.0 ],
+					"patching_rect" : [ 312.0, 571.0, 125.0, 20.0 ],
 					"text" : "s preset_store_action"
 				}
 
@@ -508,6 +508,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -548,7 +549,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+										"rect" : [ 59.0, 103.0, 584.0, 196.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
@@ -556,7 +557,7 @@
 										"default_fontname" : "Arial",
 										"gridonopen" : 1,
 										"gridsize" : [ 15.0, 15.0 ],
-										"gridsnaponopen" : 1,
+										"gridsnaponopen" : 2,
 										"statusbarvisible" : 2,
 										"toolbarvisible" : 1,
 										"boxanimatetime" : 200,
@@ -575,7 +576,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 41.0, 34.0, 30.0, 30.0 ]
+													"patching_rect" : [ 15.0, 20.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -587,7 +588,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 391.357147, 209.0, 64.0, 19.0 ],
+													"patching_rect" : [ 361.714294, 150.0, 64.0, 19.0 ],
 													"text" : "s init_bang"
 												}
 
@@ -601,7 +602,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 8,
 													"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
-													"patching_rect" : [ 86.0, 49.0, 447.0, 19.0 ],
+													"patching_rect" : [ 56.0, 64.0, 447.0, 19.0 ],
 													"text" : "t b b b b b b b b"
 												}
 
@@ -615,7 +616,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 86.0, 16.0, 56.0, 19.0 ],
+													"patching_rect" : [ 56.0, 31.0, 56.0, 19.0 ],
 													"text" : "loadbang"
 												}
 
@@ -628,19 +629,8 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 452.428558, 173.0, 82.0, 19.0 ],
+													"patching_rect" : [ 422.857147, 120.0, 82.0, 19.0 ],
 													"text" : "s listsoundfiles"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-36",
-													"maxclass" : "button",
-													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 533.0, 99.0, 24.0, 24.0 ]
 												}
 
 											}
@@ -652,7 +642,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 513.5, 130.0, 76.0, 19.0 ],
+													"patching_rect" : [ 484.0, 90.0, 76.0, 19.0 ],
 													"text" : "s read_bang"
 												}
 
@@ -700,15 +690,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-36", 0 ]
 												}
 
 											}
@@ -1235,7 +1216,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 178.0, 182.0, 719.0, 563.0 ],
+										"rect" : [ 178.0, 182.0, 795.0, 563.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 11.0,
@@ -1254,17 +1235,20 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
-													"id" : "obj-19",
-													"maxclass" : "number",
+													"frgb" : 0.0,
+													"id" : "obj-31",
+													"linecount" : 2,
+													"maxclass" : "comment",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "int", "bang" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 389.0, 411.0, 50.0, 19.0 ]
+													"numoutlets" : 0,
+													"patching_rect" : [ 116.0, 105.0, 138.0, 31.0 ],
+													"presentation_rect" : [ 123.0, 101.0, 0.0, 0.0 ],
+													"text" : "pass the patch path on to collect the soundfiles"
 												}
 
 											}
@@ -1272,55 +1256,95 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
+													"frgb" : 0.0,
+													"id" : "obj-30",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 264.0, 105.0, 97.0, 31.0 ],
+													"presentation_rect" : [ 273.0, 105.0, 0.0, 0.0 ],
+													"text" : "tell [folder] which types to get"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.0,
+													"frgb" : 0.0,
+													"id" : "obj-29",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 409.0, 105.0, 87.0, 31.0 ],
+													"presentation_rect" : [ 471.0, 104.0, 0.0, 0.0 ],
+													"text" : "fetch the patch path variable"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.0,
+													"frgb" : 0.0,
+													"id" : "obj-28",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 555.0, 105.0, 73.0, 31.0 ],
+													"presentation_rect" : [ 557.0, 111.0, 0.0, 0.0 ],
+													"text" : "reset the counter to 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 11.0,
+													"frgb" : 0.0,
+													"id" : "obj-27",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 705.0, 105.0, 73.0, 19.0 ],
+													"text" : "clear the coll"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bubble" : 1,
+													"bubbletextmargin" : 6,
+													"fontname" : "Arial",
+													"fontsize" : 11.0,
+													"frgb" : 0.0,
+													"id" : "obj-18",
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 210.0, 230.0, 309.0, 37.0 ],
+													"text" : "this sprintf object appends \"soundfiles\" to our patch path, building the path to the soundfiles folder in our project"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bubble" : 1,
+													"bubbletextmargin" : 6,
+													"fontname" : "Arial",
+													"fontsize" : 11.0,
+													"frgb" : 0.0,
 													"id" : "obj-17",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 499.0, 411.0, 32.5, 17.0 ],
-													"text" : "tata"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.0,
-													"id" : "obj-12",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 453.0, 411.0, 32.5, 17.0 ],
-													"text" : "toto"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.0,
-													"id" : "obj-10",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 389.0, 485.0, 218.0, 17.0 ],
-													"text" : "24-tata"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 11.0,
-													"id" : "obj-7",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 389.0, 448.0, 75.0, 19.0 ],
-													"text" : "sprintf %i-%s"
+													"linecount" : 2,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 315.0, 275.0, 198.0, 37.0 ],
+													"text" : "the types argument tells the folder object which filetypes to accept"
 												}
 
 											}
@@ -1333,7 +1357,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 101.0, 6.0, 80.0, 19.0 ],
+													"patching_rect" : [ 101.0, 15.0, 80.0, 19.0 ],
 													"text" : "r listsoundfiles"
 												}
 
@@ -1346,7 +1370,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 9.0, 286.0, 70.0, 19.0 ],
+													"patching_rect" : [ 9.0, 345.0, 72.0, 19.0 ],
 													"text" : "s to-sf-menu"
 												}
 
@@ -1360,7 +1384,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 101.0, 516.0, 114.0, 19.0 ],
+													"patching_rect" : [ 101.0, 531.0, 116.0, 19.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
@@ -1378,7 +1402,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 101.0, 485.0, 76.0, 19.0 ],
+													"patching_rect" : [ 101.0, 500.0, 78.0, 19.0 ],
 													"text" : "prepend store"
 												}
 
@@ -1392,7 +1416,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 101.0, 450.0, 46.0, 19.0 ],
+													"patching_rect" : [ 101.0, 465.0, 48.0, 19.0 ],
 													"text" : "pack s i"
 												}
 
@@ -1406,7 +1430,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 101.0, 328.0, 71.0, 19.0 ],
+													"patching_rect" : [ 101.0, 375.0, 431.5, 19.0 ],
 													"text" : "t s b"
 												}
 
@@ -1421,7 +1445,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "int", "bang" ],
 													"parameter_enable" : 0,
-													"patching_rect" : [ 195.0, 416.0, 50.0, 19.0 ]
+													"patching_rect" : [ 513.5, 435.0, 50.0, 19.0 ]
 												}
 
 											}
@@ -1434,7 +1458,7 @@
 													"numinlets" : 5,
 													"numoutlets" : 4,
 													"outlettype" : [ "int", "", "", "int" ],
-													"patching_rect" : [ 195.0, 379.0, 65.0, 19.0 ],
+													"patching_rect" : [ 513.5, 405.0, 73.0, 19.0 ],
 													"text" : "counter 1 2"
 												}
 
@@ -1448,7 +1472,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "bang", "bang", "bang", "int", "clear" ],
-													"patching_rect" : [ 101.0, 63.0, 189.0, 19.0 ],
+													"patching_rect" : [ 101.0, 73.0, 605.0, 19.0 ],
 													"text" : "t b b b 1 clear"
 												}
 
@@ -1462,7 +1486,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 101.0, 286.0, 73.0, 19.0 ],
+													"patching_rect" : [ 101.0, 345.0, 75.0, 19.0 ],
 													"text" : "route append"
 												}
 
@@ -1476,7 +1500,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 164.0, 222.0, 62.0, 17.0 ],
+													"patching_rect" : [ 247.5, 285.0, 63.0, 17.0 ],
 													"text" : "types AIFF"
 												}
 
@@ -1490,7 +1514,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 101.0, 191.0, 53.0, 19.0 ],
+													"patching_rect" : [ 101.0, 285.0, 55.0, 19.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -1504,7 +1528,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 101.0, 250.0, 36.0, 19.0 ],
+													"patching_rect" : [ 101.0, 315.0, 38.0, 19.0 ],
 													"text" : "folder"
 												}
 
@@ -1518,7 +1542,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 101.0, 159.0, 107.0, 19.0 ],
+													"patching_rect" : [ 101.0, 240.0, 108.0, 19.0 ],
 													"text" : "sprintf %ssoundfiles"
 												}
 
@@ -1530,7 +1554,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 101.0, 34.0, 24.0, 24.0 ]
+													"patching_rect" : [ 101.0, 45.0, 20.0, 20.0 ]
 												}
 
 											}
@@ -1539,11 +1563,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
 													"id" : "obj-3",
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 101.0, 117.0, 534.0, 17.0 ],
+													"patching_rect" : [ 101.0, 180.0, 312.0, 41.0 ],
 													"text" : "\"Macintosh HD:/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/\""
 												}
 
@@ -1557,7 +1582,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 616.0, 87.0, 72.0, 19.0 ],
+													"patching_rect" : [ 394.0, 150.0, 73.0, 19.0 ],
 													"text" : "v patch_path"
 												}
 
@@ -1569,15 +1594,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-1", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-7", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-12", 0 ]
 												}
 
 											}
@@ -1631,7 +1647,7 @@
 													"destination" : [ "obj-24", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 280.5, 509.0, 110.5, 509.0 ],
+													"midpoints" : [ 696.5, 527.0, 110.5, 527.0 ],
 													"source" : [ "obj-15", 4 ]
 												}
 
@@ -1651,24 +1667,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-16", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-7", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-17", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-19", 0 ]
 												}
 
 											}
@@ -1768,15 +1766,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-10", 1 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-7", 0 ]
 												}
 
 											}
