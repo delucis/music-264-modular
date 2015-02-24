@@ -1,0 +1,5 @@
+1-adc
+2-adc
+3-adc
+4-adc
+writejson AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles:backups:sources_24_2_12_48.txt writejson AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles:sources.txt 
