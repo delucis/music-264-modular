@@ -185,32 +185,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ 2 ],
-					"id" : "obj-5",
-					"maxclass" : "bpatcher",
-					"name" : "ht.noise-filter.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 333.0, 317.0, 119.0 ],
-					"varname" : "ht.noise-filter[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ 1 ],
-					"id" : "obj-7",
-					"maxclass" : "bpatcher",
-					"name" : "ht.noise-filter.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 333.0, 317.0, 119.0 ],
-					"varname" : "ht.noise-filter"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-1",
