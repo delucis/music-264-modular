@@ -1,13 +1,13 @@
 {
 	"pattrstorage" : 	{
-		"name" : "2-filter",
+		"name" : "1-filter",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
 					"filter-menu" : [ "peaknotch" ],
 					"1-destination" : [  ],
-					"filter-freq" : [ 3453.731201 ],
+					"filter-freq" : [ 343.379913 ],
 					"filter-gain" : [ 5.916186 ],
 					"filter-q" : [ 1.5 ],
 					"filter-volume" : [ -70.0 ]
@@ -20,10 +20,10 @@
 				"data" : 				{
 					"filter-menu" : [ "peaknotch" ],
 					"1-destination" : [  ],
-					"filter-freq" : [ 7584.14502 ],
-					"filter-gain" : [ 5.916186 ],
+					"filter-freq" : [ 146.627274 ],
+					"filter-gain" : [ 6.368696 ],
 					"filter-q" : [ 1.5 ],
-					"filter-volume" : [ -31.496063 ]
+					"filter-volume" : [ -22.451443 ]
 				}
 
 			}
@@ -31,11 +31,11 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
+					"filter-menu" : [ "lowpass" ],
 					"1-destination" : [  ],
-					"filter-freq" : [ 638.783691 ],
-					"filter-gain" : [ 6.855807 ],
-					"filter-q" : [ 0.585594 ],
+					"filter-freq" : [ 1968.677002 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
 					"filter-volume" : [ -70.0 ]
 				}
 
@@ -44,11 +44,11 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
+					"filter-menu" : [ "lowpass" ],
 					"1-destination" : [  ],
-					"filter-freq" : [ 638.783691 ],
-					"filter-gain" : [ 6.855807 ],
-					"filter-q" : [ 0.585594 ],
+					"filter-freq" : [ 1968.677002 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
 					"filter-volume" : [ -70.0 ]
 				}
 
@@ -59,10 +59,10 @@
 				"data" : 				{
 					"filter-menu" : [ "peaknotch" ],
 					"1-destination" : [  ],
-					"filter-freq" : [ 5726.814941 ],
+					"filter-freq" : [ 324.506378 ],
 					"filter-gain" : [ 16.0 ],
-					"filter-q" : [ 25.0 ],
-					"filter-volume" : [ -24.24147 ]
+					"filter-q" : [ 1.5 ],
+					"filter-volume" : [ -44.692913 ]
 				}
 
 			}
@@ -70,12 +70,12 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
+					"filter-menu" : [ "lowpass" ],
 					"1-destination" : [  ],
-					"filter-freq" : [ 638.783691 ],
-					"filter-gain" : [ 6.855807 ],
-					"filter-q" : [ 0.585594 ],
-					"filter-volume" : [ -10.341208 ]
+					"filter-freq" : [ 1968.677002 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
+					"filter-volume" : [ -9.385827 ]
 				}
 
 			}

@@ -4,7 +4,3 @@
 4-dac
 1-filter
 2-filter
-1-bus
-2-bus
-3-bus
-4-bus

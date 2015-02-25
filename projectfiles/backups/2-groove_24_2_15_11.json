@@ -145,33 +145,13 @@
 			"11" : 			{
 				"id" : 11,
 				"data" : 				{
-					"1-destination" : [ "3-dac" ],
-					"2-destination" : [ "4-dac" ],
+					"1-destination" : [ "2-dac" ],
+					"2-destination" : [ "2-dac" ],
 					"duration" : [ 114 ],
 					"duration-rand" : [ 5 ],
 					"live.gain~" : [ -26.068966 ],
 					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
-					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 5 ],
-					"sf-menu" : [ 1 ],
-					"switch" : [ 1 ]
-				}
-
-			}
-,
-			"12" : 			{
-				"id" : 12,
-				"data" : 				{
-					"1-destination" : [ "3-dac" ],
-					"2-destination" : [ "4-dac" ],
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
-					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
+					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
 					"pitch-rand" : [ 6 ],
 					"pos" : [ 0.62 ],

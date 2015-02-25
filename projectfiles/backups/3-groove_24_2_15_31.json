@@ -161,26 +161,6 @@
 				}
 
 			}
-,
-			"12" : 			{
-				"id" : 12,
-				"data" : 				{
-					"1-destination" : [ "1-dac" ],
-					"2-destination" : [ "1-dac" ],
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
-					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 177 ],
-					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
-					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ]
-				}
-
-			}
 
 		}
 
