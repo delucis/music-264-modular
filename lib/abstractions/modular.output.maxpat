@@ -38,7 +38,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.0, 245.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 6.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 48.0, 9.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -122,7 +122,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 82.0, 130.0, 52.0, 109.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 6.0, 48.0, 109.0 ],
+					"presentation_rect" : [ -7.0, 0.0, 48.0, 109.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[8]",
