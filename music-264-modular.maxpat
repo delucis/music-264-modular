@@ -494,7 +494,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 1046.0, 468.0, 493.0, 388.0 ],
+										"rect" : [ 808.0, 468.0, 676.0, 498.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -517,12 +517,38 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 358.5, 219.0, 121.0, 20.0 ],
+													"text" : "s filter-output2-meter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 120.0, 219.0, 121.0, 20.0 ],
+													"text" : "s filter-output1-meter"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 52.5, 144.0, 78.0, 20.0 ],
+													"patching_rect" : [ 90.5, 144.0, 78.0, 20.0 ],
 													"text" : "r filter-switch"
 												}
 
@@ -536,7 +562,7 @@
 													"numinlets" : 3,
 													"numoutlets" : 2,
 													"outlettype" : [ "signal", "signal" ],
-													"patching_rect" : [ 90.5, 185.0, 122.0, 20.0 ],
+													"patching_rect" : [ 90.5, 185.0, 259.5, 20.0 ],
 													"text" : "poly~ modular.filter 1"
 												}
 
@@ -550,7 +576,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 260.5, 237.0, 119.0, 20.0 ],
+													"patching_rect" : [ 360.5, 264.0, 119.0, 20.0 ],
 													"text" : "r filter-output-menu2"
 												}
 
@@ -564,7 +590,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 120.0, 237.0, 119.0, 20.0 ],
+													"patching_rect" : [ 120.0, 264.0, 119.0, 20.0 ],
 													"text" : "r filter-output-menu1"
 												}
 
@@ -578,7 +604,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 257.0, 52.0, 111.0, 20.0 ],
+													"patching_rect" : [ 331.0, 62.0, 111.0, 20.0 ],
 													"text" : "r filter-input-menu2"
 												}
 
@@ -592,7 +618,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 142.0, 52.0, 111.0, 20.0 ],
+													"patching_rect" : [ 210.75, 62.0, 111.0, 20.0 ],
 													"text" : "r filter-input-menu1"
 												}
 
@@ -605,7 +631,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 241.5, 279.0, 77.0, 20.0 ],
+													"patching_rect" : [ 331.0, 291.0, 77.0, 20.0 ],
 													"text" : "send~ 2-dac"
 												}
 
@@ -619,7 +645,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 257.0, 84.5, 93.0, 20.0 ],
+													"patching_rect" : [ 331.0, 94.5, 93.0, 20.0 ],
 													"text" : "receive~ 2-filter"
 												}
 
@@ -633,7 +659,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "signal" ],
-													"patching_rect" : [ 142.0, 84.5, 93.0, 20.0 ],
+													"patching_rect" : [ 210.75, 94.5, 93.0, 20.0 ],
 													"text" : "receive~ 1-filter"
 												}
 
@@ -646,7 +672,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 89.5, 279.0, 77.0, 20.0 ],
+													"patching_rect" : [ 90.5, 291.0, 77.0, 20.0 ],
 													"text" : "send~ 1-dac"
 												}
 
@@ -717,7 +743,25 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-9", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-26", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-9", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-4", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-9", 1 ]
@@ -2426,7 +2470,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 180.0, 312.0, 41.0 ],
-													"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
+													"text" : "PEGASUS:/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/"
 												}
 
 											}
@@ -2782,7 +2826,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 407.0, 272.0, 31.0 ],
-									"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
+									"text" : "PEGASUS:/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/"
 								}
 
 							}
@@ -3471,35 +3515,35 @@
  ],
 		"parameters" : 		{
 			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ]
+			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "read-write-txt.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove-engine.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove3.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3507,97 +3551,97 @@
 , 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-groove.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-groove.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-groove.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.filter.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.input.vol.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.vol.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.noise-filter.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-filter.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/PEGASUS/Pegasus-to-backup/data/Dropbox/_DB_documents/github/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
