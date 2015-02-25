@@ -181,24 +181,6 @@
 				}
 
 			}
-,
-			"14" : 			{
-				"id" : 14,
-				"data" : 				{
-					"filter-switch" : [ 1 ],
-					"filter-menu" : [ "peaknotch" ],
-					"1-destination" : [ "3-dac" ],
-					"1-sources" : [ "noise" ],
-					"2-destination" : [ "4-dac" ],
-					"2-sources" : [ "noise" ],
-					"filter-freq" : [ 1486.155273 ],
-					"filter-gain" : [ 7.425632 ],
-					"filter-q" : [ 1.5 ],
-					"input-vol" : [ 0.538462 ],
-					"output-vol" : [ 0.546154 ]
-				}
-
-			}
 
 		}
 
