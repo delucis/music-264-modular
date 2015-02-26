@@ -38,7 +38,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 255.0, 375.0, 122.25, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 216.0, 122.25, 60.0 ]
+					"presentation_rect" : [ 0.0, 183.0, 210.0, 39.0 ]
 				}
 
 			}
@@ -53,7 +53,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 18.0, 43.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 33.0, 43.0, 20.0 ],
+					"presentation_rect" : [ 160.868408, 28.464119, 43.0, 20.0 ],
 					"text" : "speed"
 				}
 
@@ -83,7 +83,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 75.0, 390.0, 160.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 283.0, 204.0, 38.0 ],
+					"presentation_rect" : [ 0.0, 228.0, 204.0, 38.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -141,7 +141,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 204.0, 227.0, 57.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.5, 124.0, 95.0, 20.0 ],
+					"presentation_rect" : [ 4.5, 97.0, 95.0, 20.0 ],
 					"text" : "position counter"
 				}
 
@@ -157,7 +157,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 18.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.25, 33.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 25.5, 29.0, 40.0, 20.0 ],
 					"text" : "on/off"
 				}
 
@@ -173,7 +173,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 674.5, 405.5, 79.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 190.0, 79.0, 18.0 ],
+					"presentation_rect" : [ 2.0, 158.0, 79.0, 18.0 ],
 					"text" : "clientwindow"
 				}
 
@@ -189,7 +189,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 689.5, 432.5, 91.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 190.0, 91.0, 18.0 ],
+					"presentation_rect" : [ 90.0, 158.0, 91.0, 18.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -254,7 +254,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u531005650"
+					"varname" : "u805011527"
 				}
 
 			}
@@ -311,7 +311,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 268.5, 227.0, 41.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 144.0, 95.0, 32.0 ],
+					"presentation_rect" : [ 2.0, 117.0, 95.0, 32.0 ],
 					"varname" : "switch"
 				}
 
@@ -327,7 +327,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 353.0, 135.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 138.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 109.0, 111.0, 45.0, 18.0 ],
 					"text" : "position"
 				}
 
@@ -346,7 +346,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 353.0, 150.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 156.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 109.0, 129.0, 50.0, 20.0 ],
 					"varname" : "pos"
 				}
 
@@ -376,7 +376,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 414.0, 135.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 138.0, 45.0, 18.0 ],
+					"presentation_rect" : [ 160.0, 111.0, 45.0, 18.0 ],
 					"text" : "rand. %"
 				}
 
@@ -395,7 +395,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 414.0, 150.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.0, 156.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 160.0, 129.0, 50.0, 20.0 ],
 					"varname" : "pos-rand"
 				}
 
@@ -412,7 +412,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 90.0, 150.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 100.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 2.0, 73.5, 50.0, 20.0 ],
 					"varname" : "pitch"
 				}
 
@@ -442,7 +442,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 135.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 82.5, 45.0, 18.0 ],
+					"presentation_rect" : [ 53.0, 55.5, 45.0, 18.0 ],
 					"text" : "rand. %"
 				}
 
@@ -461,7 +461,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 150.0, 150.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 100.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 53.0, 73.5, 50.0, 20.0 ],
 					"varname" : "pitch-rand"
 				}
 
@@ -491,7 +491,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 541.5, 135.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 171.0, 82.5, 45.0, 18.0 ],
+					"presentation_rect" : [ 160.0, 55.5, 45.0, 18.0 ],
 					"text" : "rand. %"
 				}
 
@@ -509,7 +509,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 479.5, 150.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 100.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 109.0, 73.5, 50.0, 20.0 ],
 					"varname" : "duration"
 				}
 
@@ -525,7 +525,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 479.5, 135.0, 38.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 82.5, 38.0, 18.0 ],
+					"presentation_rect" : [ 109.0, 55.5, 38.0, 18.0 ],
 					"text" : "length"
 				}
 
@@ -544,7 +544,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 541.5, 150.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 171.0, 100.5, 50.0, 20.0 ],
+					"presentation_rect" : [ 160.0, 73.5, 50.0, 20.0 ],
 					"varname" : "duration-rand"
 				}
 
@@ -632,7 +632,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 660.0, 45.0, 180.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.25, 7.0, 180.0, 20.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 210.0, 20.0 ],
 					"varname" : "sf-menu"
 				}
 
@@ -662,7 +662,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 90.0, 135.0, 34.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 82.5, 34.0, 18.0 ],
+					"presentation_rect" : [ 2.0, 55.5, 34.0, 18.0 ],
 					"text" : "pitch "
 				}
 
@@ -691,7 +691,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 75.0, 45.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.25, 53.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 6.25, 29.0, 20.0, 20.0 ],
 					"varname" : "on/off"
 				}
 
@@ -708,7 +708,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.0, 45.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 53.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 109.0, 29.0, 50.0, 20.0 ],
 					"varname" : "metro-speed"
 				}
 

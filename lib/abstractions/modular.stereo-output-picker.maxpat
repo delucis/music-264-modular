@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 422.0, 141.0, 124.0, 65.0 ],
+		"rect" : [ 422.0, 141.0, 211.0, 57.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 75.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 37.0, 19.0, 20.0 ],
+					"presentation_rect" : [ 105.0, 19.0, 19.0, 20.0 ],
 					"text" : "R"
 				}
 
@@ -56,7 +56,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 75.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 19.0, 19.0, 20.0 ],
+					"presentation_rect" : [ -1.0, 19.0, 19.0, 20.0 ],
 					"text" : "L"
 				}
 
@@ -73,7 +73,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 15.0, 102.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 102.0, 20.0 ],
+					"presentation_rect" : [ -1.0, 0.0, 102.0, 20.0 ],
 					"text" : "SELECT OUTPUT"
 				}
 
@@ -156,7 +156,7 @@
 					"patching_rect" : [ 135.0, 75.0, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 37.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 120.0, 19.0, 90.0, 20.0 ],
 					"varname" : "2-destination"
 				}
 
@@ -175,7 +175,7 @@
 					"patching_rect" : [ 15.0, 75.0, 100.0, 20.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 19.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 14.0, 19.0, 90.0, 20.0 ],
 					"varname" : "1-destination"
 				}
 
@@ -236,10 +236,6 @@
 
 			}
  ],
-		"parameters" : 		{
-
-		}
-,
 		"dependency_cache" : [  ]
 	}
 
