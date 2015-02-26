@@ -30,15 +30,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "#1" ],
 					"id" : "obj-27",
 					"maxclass" : "bpatcher",
 					"name" : "modular.stereo-output-picker.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 255.0, 375.0, 122.25, 60.0 ],
+					"patching_rect" : [ 256.0, 386.5, 225.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 183.0, 210.0, 39.0 ]
+					"presentation_rect" : [ 0.0, 183.0, 210.0, 39.0 ],
+					"varname" : "modular.stereo-output-picker"
 				}
 
 			}
@@ -254,7 +256,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u805011527"
+					"varname" : "u749016471"
 				}
 
 			}
