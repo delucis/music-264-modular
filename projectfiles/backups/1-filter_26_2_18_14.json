@@ -69,7 +69,7 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"filter-switch" : [ 0 ],
+					"filter-switch" : [  ],
 					"filter-menu" : [ "peaknotch" ],
 					"filter-freq" : [ 324.506378 ],
 					"filter-gain" : [ 16.0 ],

@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "#1-module-name-data-output-picker",
+		"slots" : 		{
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"1-destination" : [ "1-data" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

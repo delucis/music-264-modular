@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "0-output-picker",
+		"slots" : 		{
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"1-destination" : [ "1-dac" ],
+					"2-destination" : [ "2-dac" ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"1-destination" : [ "1-dac" ],
+					"2-destination" : [ "2-dac" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

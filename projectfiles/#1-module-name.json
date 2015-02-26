@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "#1-module-name",
+		"slots" : 		{
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"modular.stereo-input-picker::#1-module-name-input-picker" : [ 5 ],
+					"modular.data-output-picker::#1-module-name-data-output-picker" : [ 5 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"modular.stereo-input-picker::#1-module-name-input-picker" : [ 6 ],
+					"modular.data-output-picker::#1-module-name-data-output-picker" : [ 6 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

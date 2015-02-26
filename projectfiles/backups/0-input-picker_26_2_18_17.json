@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "0-input-picker",
+		"slots" : 		{
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"1-destination" : [ "1-adc" ],
+					"2-destination" : [ "2-adc" ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"1-destination" : [ "noise" ],
+					"2-destination" : [ "noise" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
