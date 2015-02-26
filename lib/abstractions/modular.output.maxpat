@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 534.0, 363.0, 640.0, 480.0 ],
+		"rect" : [ 373.0, 157.0, 661.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,39 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 15.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.0, 21.0, 63.0, 20.0 ],
+					"text" : "dsp on/off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"frgb" : 0.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 165.0, 140.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 56.0, 19.0 ],
+					"text" : "OUTPUT"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "led",
 					"numinlets" : 1,
@@ -38,7 +71,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.0, 245.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.0, 9.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 0.0, 22.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -118,11 +151,12 @@
 					"maxclass" : "live.gain~",
 					"numinlets" : 4,
 					"numoutlets" : 7,
+					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 82.0, 130.0, 52.0, 109.0 ],
+					"patching_rect" : [ 82.0, 130.0, 109.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -7.0, 0.0, 48.0, 109.0 ],
+					"presentation_rect" : [ 0.0, 45.0, 120.0, 52.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[8]",
