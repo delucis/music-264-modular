@@ -34,7 +34,7 @@
 					"name" : "modular.output.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 533.0, 70.0, 120.0 ]
+					"patching_rect" : [ 15.0, 533.0, 120.0, 97.0 ]
 				}
 
 			}
