@@ -74,24 +74,6 @@
 
 			}
 ,
-			"5" : 			{
-				"id" : 5,
-				"data" : 				{
-					"filter-switch" : [  ],
-					"filter-menu" : [ "peaknotch" ],
-					"1-destination" : [  ],
-					"1-sources" : [  ],
-					"2-destination" : [  ],
-					"2-sources" : [  ],
-					"filter-freq" : [ 324.506378 ],
-					"filter-gain" : [ 16.0 ],
-					"filter-q" : [ 1.5 ],
-					"input-vol" : [  ],
-					"output-vol" : [  ]
-				}
-
-			}
-,
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{

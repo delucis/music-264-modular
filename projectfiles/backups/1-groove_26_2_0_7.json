@@ -81,7 +81,7 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"modular.stereo-output-picker::1-output-picker" : [ 5 ],
+					"modular.stereo-output-picker::1-output-picker" : [  ],
 					"duration" : [ 154 ],
 					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
@@ -100,7 +100,7 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
-					"modular.stereo-output-picker::1-output-picker" : [ 6 ],
+					"modular.stereo-output-picker::1-output-picker" : [  ],
 					"duration" : [ 154 ],
 					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
