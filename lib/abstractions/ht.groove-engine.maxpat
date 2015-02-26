@@ -205,11 +205,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 204.0, 227.0, 53.0, 33.0 ],
+					"patching_rect" : [ 204.0, 227.0, 57.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 41.0, 156.0, 59.0, 33.0 ],
-					"text" : "position \ncounter"
+					"presentation_rect" : [ 15.5, 169.0, 95.0, 20.0 ],
+					"text" : "position counter"
 				}
 
 			}
@@ -240,7 +239,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 674.5, 405.5, 79.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 235.0, 84.0, 18.0 ],
+					"presentation_rect" : [ 13.0, 235.0, 79.0, 18.0 ],
 					"text" : "clientwindow"
 				}
 
@@ -256,7 +255,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 689.5, 432.5, 91.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 235.0, 97.0, 18.0 ],
+					"presentation_rect" : [ 101.0, 235.0, 91.0, 18.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -272,9 +271,9 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 674.5, 490.5, 213.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 385, 52, 1680, 998 ],
+						"client_rect" : [ 0, 44, 1280, 796 ],
 						"parameter_enable" : 0,
-						"storage_rect" : [ 583, 69, 1135, 260 ]
+						"storage_rect" : [ 583, 69, 1204, 530 ]
 					}
 ,
 					"text" : "pattrstorage #1-groove @savemode 0",
@@ -323,7 +322,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u799010469"
+					"varname" : "u455016675"
 				}
 
 			}
@@ -753,7 +752,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-83",
-					"maxclass" : "toggle",
+					"maxclass" : "led",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
@@ -1461,7 +1460,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "ht.groove3.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1469,42 +1468,42 @@
 , 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../externals",
+				"patcherrelativepath" : "../../../../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../externals",
+				"patcherrelativepath" : "../../../../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../externals",
+				"patcherrelativepath" : "../../../../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../externals",
+				"patcherrelativepath" : "../../../../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
-				"patcherrelativepath" : "../externals",
+				"patcherrelativepath" : "../../../../music-264-modular/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
