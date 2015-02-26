@@ -1083,6 +1083,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1100,7 +1101,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 369.0, 134.0, 665.0, 293.0 ],
+										"rect" : [ 369.0, 134.0, 618.0, 293.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1155,8 +1156,8 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 435.0, 240.0, 145.0, 20.0 ],
-													"text" : "s data-destinations-menu"
+													"patching_rect" : [ 435.0, 240.0, 91.0, 20.0 ],
+													"text" : "s data-io-menu"
 												}
 
 											}
@@ -1167,7 +1168,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 600.0, 60.0, 20.0, 20.0 ]
+													"patching_rect" : [ 540.0, 60.0, 20.0, 20.0 ]
 												}
 
 											}
@@ -1191,8 +1192,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 435.0, 90.0, 175.0, 20.0 ],
-													"text" : "read-write-txt data-destinations"
+													"patching_rect" : [ 435.0, 90.0, 121.0, 20.0 ],
+													"text" : "read-write-txt data-io"
 												}
 
 											}
@@ -1205,8 +1206,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "bang", "int" ],
-													"patching_rect" : [ 435.0, 135.0, 141.0, 20.0 ],
-													"text" : "text data-destinations.txt"
+													"patching_rect" : [ 435.0, 135.0, 86.0, 20.0 ],
+													"text" : "text data-io.txt"
 												}
 
 											}
