@@ -46,7 +46,7 @@
 					"name" : "ht.noise-filter.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 345.0, 458.0, 181.0 ],
+					"patching_rect" : [ 197.0, 300.0, 458.0, 181.0 ],
 					"varname" : "ht.noise-filter"
 				}
 
@@ -949,7 +949,7 @@
 					"name" : "ht.groove-engine.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 647.0, 5.0, 223.0, 330.0 ],
+					"patching_rect" : [ 647.0, 5.0, 223.0, 270.0 ],
 					"varname" : "ht.groove-engine[3]"
 				}
 
@@ -962,7 +962,7 @@
 					"name" : "ht.groove-engine.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 5.0, 223.0, 330.0 ],
+					"patching_rect" : [ 422.0, 5.0, 223.0, 270.0 ],
 					"varname" : "ht.groove-engine[2]"
 				}
 
@@ -1042,7 +1042,7 @@
 					"name" : "ht.groove-engine.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 5.0, 223.0, 330.0 ],
+					"patching_rect" : [ 197.0, 5.0, 223.0, 270.0 ],
 					"varname" : "ht.groove-engine[1]"
 				}
 
