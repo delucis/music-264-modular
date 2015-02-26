@@ -1100,7 +1100,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 369.0, 134.0, 442.0, 293.0 ],
+										"rect" : [ 369.0, 134.0, 665.0, 293.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1120,6 +1120,97 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 435.0, 195.0, 98.0, 20.0 ],
+													"text" : "prepend append"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 435.0, 165.0, 57.0, 20.0 ],
+													"text" : "route set"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-11",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 435.0, 240.0, 145.0, 20.0 ],
+													"text" : "s data-destinations-menu"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 600.0, 60.0, 20.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-22",
+													"maxclass" : "button",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 435.0, 60.0, 20.0, 20.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-23",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 435.0, 90.0, 175.0, 20.0 ],
+													"text" : "read-write-txt data-destinations"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-24",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "bang", "int" ],
+													"patching_rect" : [ 435.0, 135.0, 141.0, 20.0 ],
+													"text" : "text data-destinations.txt"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"comment" : "",
 													"id" : "obj-4",
@@ -1350,11 +1441,30 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"midpoints" : [ 24.5, 120.0, 114.5, 120.0 ],
 													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 82.5, 225.0, 444.5, 225.0 ],
+													"source" : [ "obj-13", 1 ]
 												}
 
 											}
@@ -1385,6 +1495,25 @@
 													"hidden" : 0,
 													"midpoints" : [ 24.5, 120.0, 264.5, 120.0 ],
 													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"midpoints" : [ 24.5, 120.0, 444.5, 120.0 ],
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 1 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-15", 0 ]
 												}
 
 											}
@@ -1448,6 +1577,42 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-23", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-24", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-23", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-10", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-24", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-11", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-3", 0 ]
 												}
 
 											}
@@ -2603,7 +2768,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 180.0, 312.0, 29.0 ],
-													"text" : "\"Macintosh HD:/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/\""
+													"text" : "\"Macintosh HD:/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/\""
 												}
 
 											}
@@ -2959,7 +3124,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 407.0, 272.0, 31.0 ],
-									"text" : "\"Macintosh HD:/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/\""
+									"text" : "\"Macintosh HD:/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/\""
 								}
 
 							}
@@ -3629,36 +3794,36 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-18::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-12::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-16::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "read-write-txt.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove-engine.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove3.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -3666,132 +3831,146 @@
 , 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/externals",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-groove.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-output-picker.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-output-picker.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-groove.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-output-picker.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-groove.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-output-picker.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.filter.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
-				"patcherrelativepath" : "../../music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "../myPatches/music-264-modular/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.input.vol.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
-				"patcherrelativepath" : "../../music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "../myPatches/music-264-modular/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.vol.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
-				"patcherrelativepath" : "../../music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "../myPatches/music-264-modular/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.noise-filter.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-filter.json",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/projectfiles",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
+				"patcherrelativepath" : "./projectfiles",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "0-output-picker.json",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "0-input-picker.json",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/projectfiles",
+				"patcherrelativepath" : "./projectfiles",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "modular.output.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/myPatches/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
