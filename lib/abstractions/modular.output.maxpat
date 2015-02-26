@@ -38,7 +38,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 15.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 21.0, 63.0, 20.0 ],
+					"presentation_rect" : [ 22.0, 21.0, 63.0, 20.0 ],
 					"text" : "dsp on/off"
 				}
 
@@ -55,7 +55,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 165.0, 140.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 56.0, 19.0 ],
+					"presentation_rect" : [ -2.0, 0.0, 56.0, 19.0 ],
 					"text" : "OUTPUT"
 				}
 
@@ -71,7 +71,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 62.0, 245.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 2.0, 22.0, 20.0, 20.0 ]
 				}
 
 			}
