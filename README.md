@@ -9,6 +9,9 @@ This is the central patch for the Music 264 “Modular” project.
 
 **N.B.** If you make any changes to the files on your computer, this will probably cause problems with syncing. If you’re having problems check the ‘Changes’ tab in the GitHub software. Just opening the main Max patch will change parts of it (for example by updating file paths) and these will show up as changes (remember that the main patch autosaves every 60 seconds). You can safely discard these changes by right-clicking on each file that has changed and selecting **Discard Changes…**.
 
+### Mac OS X 10.8
+The current version of GitHub for Mac requires OS X 10.9 (Mavericks) or higher. If you are running 10.8, you can download the last compatible version **[here](https://j.mp/1zklqpL)**.
+
 ## Making changes
 
 If you want to make changes to this repository please **[fork](https://help.github.com/articles/fork-a-repo/)** it to your own account.
