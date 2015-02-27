@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 181.0, 122.0, 286.0, 196.0 ],
+		"rect" : [ 181.0, 122.0, 678.0, 429.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,26 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 319.0, 75.0, 59.5, 20.0 ],
+					"restore" : 					{
+						"1-destination" : [ "1-dac" ],
+						"2-destination" : [ "1-dac" ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u015012195"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "Messages to right umenu",
 					"id" : "obj-13",

@@ -50,7 +50,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 387.0, 87.0, 102.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.5, 53.0, 99.0, 44.0 ]
+					"presentation_rect" : [ 35.5, 53.0, 99.0, 44.0 ],
+					"varname" : "modular.mono-output-picker"
 				}
 
 			}
@@ -187,7 +188,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u891006297"
+					"varname" : "u644011836"
 				}
 
 			}

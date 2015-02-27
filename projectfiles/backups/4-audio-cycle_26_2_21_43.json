@@ -7,8 +7,7 @@
 				"data" : 				{
 					"audio-cycle-freq" : [ 562 ],
 					"audio-cycle-vol" : [ 0.7 ],
-					"control-poly-status-i::LED" : [ 1 ],
-					"modular.mono-output-picker::1-destination" : [ "4-dac" ]
+					"control-poly-status-i::LED" : [ 1 ]
 				}
 
 			}
@@ -18,8 +17,7 @@
 				"data" : 				{
 					"audio-cycle-freq" : [ 955 ],
 					"audio-cycle-vol" : [ 0.74 ],
-					"control-poly-status-i::LED" : [ 1 ],
-					"modular.mono-output-picker::1-destination" : [ "1-dac" ]
+					"control-poly-status-i::LED" : [ 1 ]
 				}
 
 			}
