@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "1-audio-cycle",
+		"slots" : 		{
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"audio-cycle-freq" : [ 129 ],
+					"audio-cycle-vol" : [ 0.43 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

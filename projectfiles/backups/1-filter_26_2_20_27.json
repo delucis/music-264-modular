@@ -1,0 +1,191 @@
+{
+	"pattrstorage" : 	{
+		"name" : "1-filter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 343.379913 ],
+					"filter-gain" : [ 5.916186 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 146.627274 ],
+					"filter-gain" : [ 6.368696 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "lowpass" ],
+					"filter-freq" : [ 1968.677002 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "lowpass" ],
+					"filter-freq" : [ 1968.677002 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"filter-switch" : [ 0 ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 324.506378 ],
+					"filter-gain" : [ 16.0 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"filter-switch" : [ 1 ],
+					"filter-menu" : [ "resonant" ],
+					"filter-freq" : [ 557.80658 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.662832 ],
+					"input-vol" : [  ],
+					"output-vol" : [ 1.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "lowpass" ],
+					"filter-freq" : [ 1968.677002 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 0.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "bandpass" ],
+					"filter-freq" : [ 115.405792 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"filter-switch" : [  ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 2465.098877 ],
+					"filter-gain" : [ 6.075618 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ]
+				}
+
+			}
+,
+			"12" : 			{
+				"id" : 12,
+				"data" : 				{
+					"filter-switch" : [ 0 ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 6778.141113 ],
+					"filter-gain" : [ 7.088049 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [ 0.538462 ],
+					"output-vol" : [ 0.546154 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"filter-switch" : [ 0 ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 6778.141113 ],
+					"filter-gain" : [ 7.088049 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [ 0.538462 ],
+					"output-vol" : [ 0.546154 ]
+				}
+
+			}
+,
+			"14" : 			{
+				"id" : 14,
+				"data" : 				{
+					"filter-switch" : [ 1 ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 1486.155273 ],
+					"filter-gain" : [ 7.425632 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [ 0.538462 ],
+					"output-vol" : [ 0.546154 ]
+				}
+
+			}
+,
+			"99" : 			{
+				"id" : 99,
+				"data" : 				{
+					"filter-switch" : [ 0 ],
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 115.405792 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [ 0.730769 ],
+					"output-vol" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
