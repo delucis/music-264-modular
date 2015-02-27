@@ -78,17 +78,6 @@
 				}
 
 			}
-,
-			"101" : 			{
-				"id" : 101,
-				"data" : 				{
-					"audio-cycle-freq" : [ 400 ],
-					"audio-cycle-vol" : [ 0.31 ],
-					"control-poly-status-i::LED" : [ 0 ],
-					"modular.mono-output-picker::1-destination" : [ "1-dac" ]
-				}
-
-			}
 
 		}
 

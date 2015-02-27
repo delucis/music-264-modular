@@ -1,21 +1,21 @@
 {
 	"pattrstorage" : 	{
-		"name" : "3-groove",
+		"name" : "2-groove",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -25,17 +25,17 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -45,17 +45,17 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -65,17 +65,17 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 1 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -85,17 +85,17 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 1 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -105,17 +105,17 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -125,17 +125,17 @@
 			"10" : 			{
 				"id" : 10,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 177 ],
-					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
-					"pos-rand" : [ 0 ],
+					"metro-speed" : [ 105 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 5 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -145,17 +145,17 @@
 			"11" : 			{
 				"id" : 11,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 0 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
-					"pos-rand" : [ 0 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
+					"pos-rand" : [ 5 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
+					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]
 				}
@@ -170,8 +170,8 @@
 					"live.gain~" : [ -26.068966 ],
 					"metro-speed" : [ 105 ],
 					"on/off" : [ 1 ],
-					"pitch" : [ 0.8 ],
-					"pitch-rand" : [ 13 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 0 ],
 					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
@@ -325,56 +325,16 @@
 			"99" : 			{
 				"id" : 99,
 				"data" : 				{
-					"duration" : [ 209 ],
-					"duration-rand" : [ 0 ],
+					"duration" : [ 114 ],
+					"duration-rand" : [ 5 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 177 ],
+					"metro-speed" : [ 105 ],
 					"on/off" : [ 1 ],
-					"pitch" : [ 0.5 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.3 ],
+					"pitch" : [ 1.0 ],
+					"pitch-rand" : [ 6 ],
+					"pos" : [ 0.62 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
-					"switch" : [ 0 ],
-					"modular.stereo-output-picker::1-destination" : [  ],
-					"modular.stereo-output-picker::2-destination" : [  ]
-				}
-
-			}
-,
-			"100" : 			{
-				"id" : 100,
-				"data" : 				{
-					"duration" : [ 106 ],
-					"duration-rand" : [ 0 ],
-					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
-					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 0 ],
-					"switch" : [ 1 ],
-					"modular.stereo-output-picker::1-destination" : [  ],
-					"modular.stereo-output-picker::2-destination" : [  ]
-				}
-
-			}
-,
-			"101" : 			{
-				"id" : 101,
-				"data" : 				{
-					"duration" : [ 106 ],
-					"duration-rand" : [ 0 ],
-					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
-					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 0 ],
 					"switch" : [ 1 ],
 					"modular.stereo-output-picker::1-destination" : [  ],
 					"modular.stereo-output-picker::2-destination" : [  ]

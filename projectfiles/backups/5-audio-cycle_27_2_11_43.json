@@ -1,0 +1,20 @@
+{
+	"pattrstorage" : 	{
+		"name" : "5-audio-cycle",
+		"slots" : 		{
+			"50" : 			{
+				"id" : 50,
+				"data" : 				{
+					"audio-cycle-freq" : [ 269 ],
+					"audio-cycle-vol" : [ 0.69 ],
+					"control-poly-status-i::LED" : [ 1 ],
+					"modular.mono-output-picker::1-destination" : [ "2-dac" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
