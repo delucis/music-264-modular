@@ -3,9 +3,11 @@ This is the central patch for the Music 264 “Modular” project.
 
 ## Keeping an updated copy on your computer
 
-After installing [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/), click **[‘Clone in Desktop’](github-mac://openRepo/https://github.com/mus264/music-264-modular)**. Follow the on-screen instructions and choose a sensible place to save the repository.
+1. After installing [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/), click **[Clone in Desktop](github-mac://openRepo/https://github.com/mus264/music-264-modular)**. Follow the on-screen instructions and choose a sensible place to save the repository.
 
-Now, to make sure the version on your computer is up-to-date, simply click **‘Sync’** in the top-right of the GitHub software on your computer. **N.B.** If you make any changes to the files on your computer, you may cause problems with syncing. If you’re having problems check the ‘Changes’ tab in the GitHub software. Just opening the main Max patch will change parts of it (for example by updating file paths) and these will show up as changes (remember that the main patch autosaves every 60 seconds). You can safely discard these changes by right-clicking on each file that has changed and selecting **‘Discard Changes…’**.
+2. Now, to make sure the version on your computer is up-to-date, simply click **Sync** in the top-right of the GitHub software on your computer.
+
+**N.B.** If you make any changes to the files on your computer, this will probably cause problems with syncing. If you’re having problems check the ‘Changes’ tab in the GitHub software. Just opening the main Max patch will change parts of it (for example by updating file paths) and these will show up as changes (remember that the main patch autosaves every 60 seconds). You can safely discard these changes by right-clicking on each file that has changed and selecting **Discard Changes…**.
 
 ## Making changes
 
