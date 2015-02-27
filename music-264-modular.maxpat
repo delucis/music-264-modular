@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 66.0, 97.0, 1046.0, 706.0 ],
+		"rect" : [ 122.0, 71.0, 1046.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,13 +29,39 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 647.0, 667.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 647.0, 645.0, 125.0, 20.0 ],
+					"text" : "r 4-audio-cycle-status"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 821.0, 555.0, 20.0, 20.0 ]
+					"patching_rect" : [ 510.0, 667.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -48,7 +74,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 821.0, 533.0, 125.0, 20.0 ],
+					"patching_rect" : [ 510.0, 645.0, 125.0, 20.0 ],
 					"text" : "r 3-audio-cycle-status"
 				}
 
@@ -61,7 +87,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.0, 555.0, 20.0, 20.0 ]
+					"patching_rect" : [ 353.0, 667.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -74,7 +100,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.0, 533.0, 125.0, 20.0 ],
+					"patching_rect" : [ 353.0, 645.0, 125.0, 20.0 ],
 					"text" : "r 2-audio-cycle-status"
 				}
 
@@ -87,7 +113,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 540.0, 555.0, 20.0, 20.0 ]
+					"patching_rect" : [ 199.0, 667.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -100,7 +126,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 533.0, 125.0, 20.0 ],
+					"patching_rect" : [ 199.0, 645.0, 125.0, 20.0 ],
 					"text" : "r 1-audio-cycle-status"
 				}
 
@@ -113,8 +139,8 @@
 					"name" : "audio-cycle-i.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"offset" : [ -4.0, -33.0 ],
-					"patching_rect" : [ 675.0, 319.0, 120.0, 155.0 ],
+					"offset" : [ 1.0, 0.0 ],
+					"patching_rect" : [ 197.0, 480.0, 142.5, 150.0 ],
 					"varname" : "audio-cycle-i"
 				}
 
@@ -138,7 +164,7 @@
 					"name" : "ht.noise-filter.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 197.0, 300.0, 427.0, 174.0 ],
+					"patching_rect" : [ 197.0, 285.0, 427.0, 174.0 ],
 					"varname" : "ht.noise-filter"
 				}
 
@@ -506,7 +532,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 388.0, 1202.0, 532.0, 557.0 ],
+						"rect" : [ 190.0, 221.0, 532.0, 557.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -525,7 +551,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -579,13 +604,15 @@
 										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
-													"id" : "obj-10",
-													"maxclass" : "toggle",
-													"numinlets" : 1,
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "int" ],
-													"parameter_enable" : 0,
-													"patching_rect" : [ 49.0, 144.0, 20.0, 20.0 ]
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 154.0, 137.0, 174.0, 20.0 ],
+													"text" : "poly-mute-control8 audio-cycle"
 												}
 
 											}
@@ -638,23 +665,9 @@
 													"id" : "obj-9",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 1,
-													"outlettype" : [ "signal" ],
+													"numoutlets" : 0,
 													"patching_rect" : [ 81.0, 168.0, 124.0, 20.0 ],
 													"text" : "poly~ audio-cycle-a 4"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-7",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 81.0, 270.0, 77.0, 20.0 ],
-													"text" : "send~ 1-dac"
 												}
 
 											}
@@ -664,7 +677,7 @@
 													"destination" : [ "obj-9", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-10", 0 ]
+													"source" : [ "obj-2", 0 ]
 												}
 
 											}
@@ -683,15 +696,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-6", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-9", 0 ]
 												}
 
 											}
@@ -4100,39 +4104,48 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "read-write-txt.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove-engine.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove3.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4145,29 +4158,29 @@
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4180,8 +4193,8 @@
 			}
 , 			{
 				"name" : "modular.stereo-output-picker.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4201,36 +4214,50 @@
 			}
 , 			{
 				"name" : "modular.filter.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.input.vol.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.vol.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-a.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "symbolpipe.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"patcherrelativepath" : "./lib/externals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "poly-mute-control8.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.noise-filter.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4243,22 +4270,22 @@
 			}
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-i.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4271,8 +4298,15 @@
 			}
 , 			{
 				"name" : "control-poly-status-i.maxpat",
-				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "modular.mono-output-picker.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

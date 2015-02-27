@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 292.0, 151.0, 752.0, 635.0 ],
+		"rect" : [ 292.0, 209.0, 752.0, 635.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,33 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 387.0, 142.0, 142.0, 20.0 ],
+					"text" : "s #1-audio-cycle-output1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "bpatcher",
+					"name" : "modular.mono-output-picker.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 387.0, 87.0, 102.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 35.5, 53.0, 99.0, 44.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "#1", "#2" ],
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
@@ -36,9 +63,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 1.0, 2.0 ],
-					"patching_rect" : [ 255.0, 127.0, 128.0, 128.0 ],
+					"patching_rect" : [ 387.0, 33.0, 29.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 36.0, 28.0, 35.0 ],
+					"presentation_rect" : [ 106.5, 9.0, 28.0, 35.0 ],
 					"varname" : "control-poly-status-i"
 				}
 
@@ -52,7 +79,7 @@
 					"outlettype" : [ "list" ],
 					"patching_rect" : [ 160.0, 60.0, 7.0, 139.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.99091, 40.0, 8.0, 104.0 ]
+					"presentation_rect" : [ 24.99091, 9.0, 8.0, 104.0 ]
 				}
 
 			}
@@ -81,7 +108,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.0, 229.0, 28.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 166.0, 28.0, 18.0 ],
+					"presentation_rect" : [ 60.0, 135.0, 28.0, 18.0 ],
 					"text" : "freq"
 				}
 
@@ -97,7 +124,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.0, 229.0, 23.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 166.0, 23.0, 18.0 ],
+					"presentation_rect" : [ 3.0, 135.0, 23.0, 18.0 ],
 					"text" : "vol"
 				}
 
@@ -160,7 +187,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u676007869"
+					"varname" : "u891006297"
 				}
 
 			}
@@ -279,7 +306,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 24.0, 206.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 146.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 3.0, 115.0, 50.0, 20.0 ],
 					"varname" : "audio-cycle-vol"
 				}
 
@@ -295,7 +322,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 24.0, 59.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 36.0, 20.0, 110.0 ],
+					"presentation_rect" : [ 3.0, 5.0, 20.0, 110.0 ],
 					"size" : 1.0
 				}
 
@@ -325,7 +352,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 152.0, 206.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 146.0, 50.0, 20.0 ],
+					"presentation_rect" : [ 60.0, 115.0, 50.0, 20.0 ],
 					"varname" : "audio-cycle-freq"
 				}
 
@@ -373,6 +400,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -446,6 +482,13 @@
 			}
 , 			{
 				"name" : "control-poly-status-i.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "modular.mono-output-picker.maxpat",
 				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

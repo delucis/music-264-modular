@@ -1,20 +1,38 @@
 {
 	"pattrstorage" : 	{
-		"name" : "2-groove",
+		"name" : "1-groove",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 111 ],
+					"duration-rand" : [ 51 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
+					"metro-speed" : [ 209 ],
+					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
+					"pitch-rand" : [ 7 ],
+					"pos" : [ 0.4 ],
 					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 1 ],
+					"sf-menu" : [ 0 ],
+					"switch" : [ 1 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"duration" : [ 111 ],
+					"duration-rand" : [ 51 ],
+					"live.gain~" : [  ],
+					"metro-speed" : [ 9 ],
+					"on/off" : [ 1 ],
+					"pitch" : [ 1.59 ],
+					"pitch-rand" : [ 99 ],
+					"pos" : [ 0.4 ],
+					"pos-rand" : [ 0 ],
+					"sf-menu" : [ 0 ],
 					"switch" : [ 1 ]
 				}
 
@@ -23,17 +41,17 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 24 ],
+					"duration-rand" : [ 0 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
+					"metro-speed" : [ 75 ],
+					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
+					"pitch-rand" : [ 77 ],
+					"pos" : [ 0.7 ],
 					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 1 ],
-					"switch" : [ 1 ]
+					"sf-menu" : [ 0 ],
+					"switch" : [ 0 ]
 				}
 
 			}
@@ -41,16 +59,16 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 61 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
+					"metro-speed" : [ 75 ],
+					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 1 ],
+					"pitch-rand" : [ 2 ],
+					"pos" : [ 0.6 ],
+					"pos-rand" : [ 99 ],
+					"sf-menu" : [ 0 ],
 					"switch" : [ 1 ]
 				}
 
@@ -59,14 +77,14 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 154 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
+					"metro-speed" : [ 165 ],
 					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.6 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]
@@ -77,14 +95,14 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 154 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
+					"metro-speed" : [ 165 ],
 					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.6 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]
@@ -95,14 +113,14 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 154 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
+					"metro-speed" : [ 165 ],
 					"on/off" : [ 0 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.6 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]
@@ -113,15 +131,15 @@
 			"10" : 			{
 				"id" : 10,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 154 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 105 ],
+					"metro-speed" : [ 165 ],
 					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 5 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.6 ],
+					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]
 				}
@@ -131,15 +149,15 @@
 			"11" : 			{
 				"id" : 11,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 154 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
+					"metro-speed" : [ 43 ],
+					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 5 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.6 ],
+					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]
 				}
@@ -151,13 +169,13 @@
 				"data" : 				{
 					"duration" : [ 106 ],
 					"duration-rand" : [ 0 ],
-					"live.gain~" : [ -26.068966 ],
+					"live.gain~" : [ -13.871683 ],
 					"metro-speed" : [ 105 ],
 					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
 					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 0 ],
+					"pos" : [ 0.21 ],
+					"pos-rand" : [ 34 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]
 				}
@@ -218,35 +236,17 @@
 
 			}
 ,
-			"51" : 			{
-				"id" : 51,
-				"data" : 				{
-					"duration" : [ 106 ],
-					"duration-rand" : [ 0 ],
-					"live.gain~" : [ -26.068966 ],
-					"metro-speed" : [ 105 ],
-					"on/off" : [ 0 ],
-					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 0 ],
-					"pos" : [ 0.62 ],
-					"pos-rand" : [ 0 ],
-					"sf-menu" : [ 0 ],
-					"switch" : [ 1 ]
-				}
-
-			}
-,
 			"99" : 			{
 				"id" : 99,
 				"data" : 				{
-					"duration" : [ 114 ],
-					"duration-rand" : [ 5 ],
+					"duration" : [ 154 ],
+					"duration-rand" : [ 99 ],
 					"live.gain~" : [  ],
-					"metro-speed" : [ 105 ],
+					"metro-speed" : [ 165 ],
 					"on/off" : [ 1 ],
 					"pitch" : [ 1.0 ],
-					"pitch-rand" : [ 6 ],
-					"pos" : [ 0.62 ],
+					"pitch-rand" : [ 0 ],
+					"pos" : [ 0.6 ],
 					"pos-rand" : [ 0 ],
 					"sf-menu" : [ 1 ],
 					"switch" : [ 1 ]

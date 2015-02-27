@@ -184,20 +184,6 @@
 
 			}
 ,
-			"51" : 			{
-				"id" : 51,
-				"data" : 				{
-					"filter-switch" : [ 0 ],
-					"filter-menu" : [ "peaknotch" ],
-					"filter-freq" : [ 115.405792 ],
-					"filter-gain" : [ 1.0 ],
-					"filter-q" : [ 1.5 ],
-					"input-vol" : [ 0.730769 ],
-					"output-vol" : [ 0.6 ]
-				}
-
-			}
-,
 			"99" : 			{
 				"id" : 99,
 				"data" : 				{

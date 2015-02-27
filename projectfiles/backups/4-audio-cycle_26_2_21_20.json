@@ -1,0 +1,19 @@
+{
+	"pattrstorage" : 	{
+		"name" : "4-audio-cycle",
+		"slots" : 		{
+			"50" : 			{
+				"id" : 50,
+				"data" : 				{
+					"audio-cycle-freq" : [ 562 ],
+					"audio-cycle-vol" : [ 0.7 ],
+					"control-poly-status-i::LED" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

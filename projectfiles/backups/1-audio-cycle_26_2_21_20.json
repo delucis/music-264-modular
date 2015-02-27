@@ -21,16 +21,6 @@
 				}
 
 			}
-,
-			"51" : 			{
-				"id" : 51,
-				"data" : 				{
-					"audio-cycle-freq" : [ 334 ],
-					"audio-cycle-vol" : [ 0.23 ],
-					"control-poly-status-i::LED" : [ 1 ]
-				}
-
-			}
 
 		}
 
