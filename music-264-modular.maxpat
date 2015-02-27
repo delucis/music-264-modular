@@ -621,19 +621,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 351.0, 198.0, 121.0, 20.0 ],
-													"text" : "s filter-output2-meter"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
 													"id" : "obj-1",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
@@ -655,47 +642,6 @@
 													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 81.0, 168.0, 124.0, 20.0 ],
 													"text" : "poly~ audio-cycle-a 4"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-47",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 351.0, 228.0, 119.0, 20.0 ],
-													"text" : "r filter-output-menu2"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-55",
-													"maxclass" : "newobj",
-													"numinlets" : 0,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 137.0, 228.0, 119.0, 20.0 ],
-													"text" : "r filter-output-menu1"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-26",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 336.0, 258.0, 77.0, 20.0 ],
-													"text" : "send~ 2-dac"
 												}
 
 											}
@@ -728,15 +674,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-26", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-47", 0 ]
 												}
 
 											}
@@ -3106,12 +3043,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
 													"id" : "obj-3",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 180.0, 312.0, 41.0 ],
-													"text" : "AIR:/Users/hans/Desktop/music-264-modular/"
+													"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
 												}
 
 											}
@@ -3461,12 +3399,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-14",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 407.0, 272.0, 31.0 ],
-									"text" : "AIR:/Users/hans/Desktop/music-264-modular/"
+									"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
 								}
 
 							}
@@ -4172,69 +4111,69 @@
 		"dependency_cache" : [ 			{
 				"name" : "read-write-txt.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove-engine.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove3.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/externals",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-groove.json",
-				"bootpath" : "/Users/hans/Desktop/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4242,20 +4181,20 @@
 , 			{
 				"name" : "modular.stereo-output-picker.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-groove.json",
-				"bootpath" : "/Users/hans/Desktop/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-groove.json",
-				"bootpath" : "/Users/hans/Desktop/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4263,41 +4202,41 @@
 , 			{
 				"name" : "modular.filter.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.input.vol.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.vol.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-a.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.noise-filter.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-filter.json",
-				"bootpath" : "/Users/hans/Desktop/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4305,27 +4244,27 @@
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-i.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-audio-cycle.json",
-				"bootpath" : "/Users/hans/Desktop/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4333,7 +4272,7 @@
 , 			{
 				"name" : "control-poly-status-i.maxpat",
 				"bootpath" : "/Users/hans/.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
-				"patcherrelativepath" : "../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
+				"patcherrelativepath" : "../../../../.Trash/music-264-modular 9.05.19 PM/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
