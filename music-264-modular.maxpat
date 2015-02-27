@@ -203,7 +203,7 @@
 					"args" : [ 1 ],
 					"id" : "obj-5",
 					"maxclass" : "bpatcher",
-					"name" : "ht.noise-filter.maxpat",
+					"name" : "audio-filter.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 197.0, 285.0, 427.0, 174.0 ],
@@ -4298,7 +4298,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ht.noise-filter.maxpat",
+				"name" : "audio-filter.maxpat",
 				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
