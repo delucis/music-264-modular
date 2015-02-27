@@ -1,0 +1,189 @@
+{
+	"pattrstorage" : 	{
+		"name" : "2-filter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 3453.731201 ],
+					"filter-gain" : [ 5.916186 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 7584.14502 ],
+					"filter-gain" : [ 5.916186 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 638.783691 ],
+					"filter-gain" : [ 6.855807 ],
+					"filter-q" : [ 0.585594 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 638.783691 ],
+					"filter-gain" : [ 6.855807 ],
+					"filter-q" : [ 0.585594 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 5726.814941 ],
+					"filter-gain" : [ 16.0 ],
+					"filter-q" : [ 25.0 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 638.783691 ],
+					"filter-gain" : [ 6.855807 ],
+					"filter-q" : [ 0.585594 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"filter-menu" : [ "bandpass" ],
+					"filter-freq" : [ 115.405792 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"11" : 			{
+				"id" : 11,
+				"data" : 				{
+					"filter-menu" : [ "bandpass" ],
+					"filter-freq" : [ 115.405792 ],
+					"filter-gain" : [ 1.0 ],
+					"filter-q" : [ 1.5 ],
+					"input-vol" : [  ],
+					"output-vol" : [  ],
+					"modular.stereo-output-picker::1-destination" : [  ],
+					"modular.stereo-output-picker::2-destination" : [  ],
+					"modular.stereo-input-picker::1-source" : [  ],
+					"modular.stereo-input-picker::2-source" : [  ],
+					"control-poly-status-i::LED" : [  ]
+				}
+
+			}
+,
+			"53" : 			{
+				"id" : 53,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 2743.670166 ],
+					"filter-gain" : [ 7.088049 ],
+					"filter-q" : [ 0.946003 ],
+					"input-vol" : [ 0.465116 ],
+					"output-vol" : [ 0.44186 ],
+					"modular.stereo-output-picker::1-destination" : [ "2-dac" ],
+					"modular.stereo-output-picker::2-destination" : [ "4-dac" ],
+					"modular.stereo-input-picker::1-source" : [ "noise" ],
+					"modular.stereo-input-picker::2-source" : [ "noise" ],
+					"control-poly-status-i::LED" : [ 1 ]
+				}
+
+			}
+,
+			"54" : 			{
+				"id" : 54,
+				"data" : 				{
+					"filter-menu" : [ "peaknotch" ],
+					"filter-freq" : [ 339.702759 ],
+					"filter-gain" : [ 7.425632 ],
+					"filter-q" : [ 0.946003 ],
+					"input-vol" : [ 0.465116 ],
+					"output-vol" : [ 0.44186 ],
+					"modular.stereo-output-picker::1-destination" : [ "2-dac" ],
+					"modular.stereo-output-picker::2-destination" : [ "4-dac" ],
+					"modular.stereo-input-picker::1-source" : [ "1-bus" ],
+					"modular.stereo-input-picker::2-source" : [ "2-bus" ],
+					"control-poly-status-i::LED" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

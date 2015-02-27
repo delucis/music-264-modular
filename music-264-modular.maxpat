@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 65.0, 61.0, 1046.0, 706.0 ],
+		"rect" : [ 65.0, 61.0, 1100.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ 2, "audio-filter" ],
+					"id" : "obj-3",
+					"maxclass" : "bpatcher",
+					"name" : "audio-filter.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 630.0, 285.0, 427.0, 174.0 ],
+					"presentation_rect" : [ 633.0, 282.0, 0.0, 0.0 ],
+					"varname" : "ht.noise-filter[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ 4, "audio-cycle" ],
 					"id" : "obj-43",
@@ -3938,10 +3952,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ]
+			"obj-18::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-12::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-16::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4149,6 +4163,13 @@
 			}
 , 			{
 				"name" : "4-audio-cycle.json",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"patcherrelativepath" : "./projectfiles",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2-filter.json",
 				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",

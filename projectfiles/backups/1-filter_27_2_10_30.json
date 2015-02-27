@@ -290,24 +290,6 @@
 
 			}
 ,
-			"54" : 			{
-				"id" : 54,
-				"data" : 				{
-					"filter-menu" : [ "peaknotch" ],
-					"filter-freq" : [ 1973.954834 ],
-					"filter-gain" : [ 4.885 ],
-					"filter-q" : [ 0.865494 ],
-					"input-vol" : [ 0.674419 ],
-					"output-vol" : [ 0.674419 ],
-					"modular.stereo-output-picker::1-destination" : [ "1-dac" ],
-					"modular.stereo-output-picker::2-destination" : [ "3-dac" ],
-					"modular.stereo-input-picker::1-source" : [ "noise" ],
-					"modular.stereo-input-picker::2-source" : [ "noise" ],
-					"control-poly-status-i::LED" : [ 1 ]
-				}
-
-			}
-,
 			"99" : 			{
 				"id" : 99,
 				"data" : 				{
