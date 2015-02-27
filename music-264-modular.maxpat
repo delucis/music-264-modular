@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -41,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -727,7 +727,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u644005562"
+									"varname" : "u020004894"
 								}
 
 							}
@@ -1402,7 +1402,6 @@
 					}
 ,
 					"patching_rect" : [ 197.0, 465.0, 427.0, 174.0 ],
-					"presentation_rect" : [ 201.0, 463.0, 0.0, 0.0 ],
 					"varname" : "ht.noise-filter[2]"
 				}
 
@@ -1417,7 +1416,6 @@
 					"numoutlets" : 0,
 					"offset" : [ 1.0, 0.0 ],
 					"patching_rect" : [ 810.0, 645.0, 142.5, 150.0 ],
-					"presentation_rect" : [ 817.0, 486.0, 0.0, 0.0 ],
 					"varname" : "audio-cycle-i[4]"
 				}
 
@@ -1529,7 +1527,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1874,7 +1872,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1925,7 +1923,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2149,7 +2147,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2449,7 +2447,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -2485,7 +2483,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3116,7 +3114,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3342,7 +3340,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3827,7 +3825,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4173,12 +4171,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 11.0,
 													"id" : "obj-3",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 180.0, 312.0, 41.0 ],
-													"text" : "Audio_Workspace:/Hans/MaxMSP/music-264-modular/"
+													"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
 												}
 
 											}
@@ -4500,7 +4499,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4534,7 +4533,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 407.0, 272.0, 31.0 ],
-									"text" : "Audio_Workspace:/Hans/MaxMSP/music-264-modular/"
+									"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
 								}
 
 							}
@@ -4632,7 +4631,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -5204,36 +5203,36 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-12::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-16::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ]
+			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "read-write-txt.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove-engine.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove3.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5241,202 +5240,202 @@
 , 			{
 				"name" : "pan2.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-groove.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-output-picker.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-groove.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-groove.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.filter.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.send-switcher.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "symbolpipe.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Listreg",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly-mute-control8.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-a.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-filter.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-filter.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "control-poly-status-i.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-i.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-audio-cycle.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.mono-output-picker.maxpat",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-audio-cycle.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-audio-cycle.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4-audio-cycle.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-filter.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "5-audio-cycle.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-filter.json",
-				"bootpath" : "/Volumes/Audio_Workspace/Hans/MaxMSP/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
