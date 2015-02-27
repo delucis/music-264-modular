@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 122.0, 71.0, 1046.0, 706.0 ],
+		"rect" : [ 65.0, 61.0, 1046.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -574,7 +574,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 190.0, 221.0, 532.0, 557.0 ],
+						"rect" : [ 194.0, 1149.0, 532.0, 557.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -625,7 +625,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 515.0, 1236.0, 395.0, 135.0 ],
+										"rect" : [ 926.0, 507.0, 372.0, 161.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -644,7 +644,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -868,6 +867,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -4144,10 +4144,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ]
+			"obj-16::obj-21" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-18::obj-21" : [ "live.gain~[5]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -4264,6 +4264,13 @@
 			}
 , 			{
 				"name" : "audio-cycle-a.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "modular.send-switcher.maxpat",
 				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
