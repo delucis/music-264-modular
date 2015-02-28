@@ -5539,10 +5539,10 @@
  ],
 		"parameters" : 		{
 			"obj-7::obj-1::obj-18::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-7::obj-1::obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-7::obj-1::obj-16::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-134" : [ "toggle[3]", "toggle[3]", 0 ],
-			"obj-7::obj-1::obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ]
+			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-134" : [ "toggle[3]", "toggle[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
