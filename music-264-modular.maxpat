@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 0.0, 50.0, 181.0, 362.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -3798,7 +3798,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 360.75, 217.0, 33.0, 17.0 ],
-													"presentation_rect" : [ 360.75, 215.0, 0.0, 0.0 ],
 													"text" : "front"
 												}
 
@@ -3826,7 +3825,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 239.75, 217.0, 33.0, 17.0 ],
-													"presentation_rect" : [ 239.75, 217.0, 0.0, 0.0 ],
 													"text" : "front"
 												}
 
@@ -4483,7 +4481,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 180.0, 312.0, 41.0 ],
-													"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
+													"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/"
 												}
 
 											}
@@ -4841,7 +4839,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 407.0, 272.0, 31.0 ],
-									"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/"
+									"text" : "AIR:/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/"
 								}
 
 							}
@@ -5540,86 +5538,86 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-7::obj-1::obj-18::obj-21" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-6::obj-3" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-7::obj-1::obj-12::obj-21" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-7::obj-1::obj-16::obj-21" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-7::obj-1::obj-18::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-134" : [ "toggle[3]", "toggle[3]", 0 ]
+			"obj-7::obj-1::obj-16::obj-21" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-134" : [ "toggle[3]", "toggle[3]", 0 ],
+			"obj-7::obj-1::obj-12::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "read-write-txt.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.filter.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.send-switcher.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "symbolpipe.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Listreg",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly-mute-control8.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-a.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.output.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove-engine.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.groove3.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5633,133 +5631,133 @@
 			}
 , 			{
 				"name" : "ht.random-range.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.between.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/externals",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/externals",
 				"patcherrelativepath" : "./lib/externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-groove.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-output-picker.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-groove.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-groove.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-filter.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-filter.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "control-poly-status-i.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-filter.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio-cycle-i.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "1-audio-cycle.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.mono-output-picker.maxpat",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "2-audio-cycle.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "3-audio-cycle.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4-audio-cycle.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular-fork/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
 				"type" : "JSON",
 				"implicit" : 1
