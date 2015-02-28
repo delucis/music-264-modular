@@ -38,7 +38,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 132.0, 268.0, 74.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 15.0, 74.0, 18.0 ],
+					"presentation_rect" : [ 36.5, 15.0, 74.0, 18.0 ],
 					"text" : "configuration"
 				}
 
@@ -52,7 +52,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 114.5, 266.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 13.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 5.0, 9.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -73,7 +73,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 264.0, 139.0, 973.0, 621.0 ],
+						"rect" : [ 226.0, 149.0, 805.0, 378.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -92,18 +92,70 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-109",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 52.4375, 41.0, 103.0, 19.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 75.5, 120.5, 69.0, 31.0 ],
+									"text" : "choose sound card"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-108",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 29.4375, 41.0, 19.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 52.5, 87.5, 18.0, 20.0 ],
+									"text" : "1",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"id" : "obj-51",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 164.4375, 41.0, 61.0, 29.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 127.102356, 107.0, 60.0, 29.0 ],
+									"text" : ";\rdsp status"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-10",
-									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 8.0, 188.0, 33.0 ],
+									"patching_rect" : [ 28.5, 9.0, 332.875, 20.0 ],
 									"text" : "configuration of sound card, inputs, outputs, MIDI etc."
 								}
 
@@ -117,7 +169,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 800.0, 64.0, 69.0, 20.0 ],
+									"patching_rect" : [ 596.0, 65.0, 69.0, 20.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -132,7 +184,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 800.0, 40.0, 35.0, 18.0 ],
+									"patching_rect" : [ 596.0, 41.0, 35.0, 18.0 ],
 									"text" : "front"
 								}
 
@@ -145,7 +197,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 800.0, 8.0, 25.0, 25.0 ]
+									"patching_rect" : [ 596.0, 9.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -202,7 +254,7 @@
 					"patching_rect" : [ 15.0, 222.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 15.0, 310.0, 137.0, 33.0 ],
+					"presentation_rect" : [ 5.0, 310.0, 137.0, 33.0 ],
 					"text" : "press control + number to call interface pages"
 				}
 
@@ -217,7 +269,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 150.0, 566.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 170.0, 338.0, 15.0, 15.0 ],
+					"presentation_rect" : [ 160.0, 338.0, 15.0, 15.0 ],
 					"prototypename" : "Arial9",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -244,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 171.0, 566.0, 35.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 317.5, 35.0, 18.0 ],
+					"presentation_rect" : [ 150.0, 317.5, 35.0, 18.0 ],
 					"text" : "View",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -304,7 +356,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1555,7 +1606,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 207.0, 597.0, 839.0, 167.0 ],
+										"rect" : [ 181.0, 591.0, 878.0, 167.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1711,7 +1762,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 211.0, 52.0, 877.0, 474.0 ],
+										"rect" : [ 182.0, 50.0, 877.0, 474.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1865,7 +1916,7 @@
 ,
 					"patching_rect" : [ 15.0, 195.0, 73.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 105.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 105.0, 73.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1893,7 +1944,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 533.0, 120.0, 97.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 210.0, 120.0, 97.0 ]
+					"presentation_rect" : [ 5.0, 210.0, 120.0, 97.0 ]
 				}
 
 			}
@@ -2100,7 +2151,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.0, 195.0, 62.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 65.0, 62.0, 18.0 ],
+					"presentation_rect" : [ 92.0, 65.0, 62.0, 18.0 ],
 					"text" : "CPU usage"
 				}
 
@@ -2117,7 +2168,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 105.0, 70.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 45.0, 70.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 45.0, 70.0, 20.0 ],
 					"text" : "Reset"
 				}
 
@@ -2134,7 +2185,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 465.0, 60.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 186.0, 60.0, 19.0 ],
+					"presentation_rect" : [ 4.0, 186.0, 60.0, 19.0 ],
 					"text" : "Store"
 				}
 
@@ -2150,7 +2201,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 435.0, 114.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 165.0, 66.0, 18.0 ],
+					"presentation_rect" : [ 55.0, 165.0, 66.0, 18.0 ],
 					"text" : "Store Preset"
 				}
 
@@ -2180,7 +2231,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 15.0, 267.0, 74.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 135.0, 70.0, 18.0 ],
+					"presentation_rect" : [ 55.0, 135.0, 70.0, 18.0 ],
 					"text" : "Recall Preset"
 				}
 
@@ -2197,7 +2248,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 93.0, 165.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 45.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 92.0, 45.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -2706,7 +2757,7 @@
 ,
 					"patching_rect" : [ 15.0, 165.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 85.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 85.0, 40.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2736,7 +2787,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 375.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 165.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 5.0, 165.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -2791,7 +2842,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 285.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 135.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 5.0, 135.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -4695,7 +4746,7 @@
 ,
 					"patching_rect" : [ 15.0, 135.0, 58.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 65.0, 58.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 65.0, 58.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
