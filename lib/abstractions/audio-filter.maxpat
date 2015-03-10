@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 9,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 31.0, 44.0, 1095.0, 624.0 ],
+		"rect" : [ 43.0, 44.0, 1095.0, 624.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-179",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 702.0, 75.0, 114.0, 20.0 ],
+					"text" : "r 1-env-data-scaled"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -707,7 +721,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 645.0, 495.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"filter-freq" : [ 115.405792 ],
+						"filter-freq" : [ 871.957886 ],
 						"filter-gain" : [ 1.0 ],
 						"filter-menu" : [ "peaknotch" ],
 						"filter-q" : [ 1.5 ],
@@ -716,7 +730,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u175005454"
+					"varname" : "u673002875"
 				}
 
 			}
@@ -907,7 +921,7 @@
 					"patching_rect" : [ 555.0, 195.0, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.0, 47.5, 169.0, 119.0 ],
-					"setfilter" : [ 0, 5, 0, 0, 0, 115.405792, 1.0, 1.5, 0.0001, 22050.0, 0.0001, 16.0, 0.5, 25.0 ]
+					"setfilter" : [ 0, 5, 0, 0, 0, 871.957886, 1.0, 1.5, 0.0001, 22050.0, 0.0001, 16.0, 0.5, 25.0 ]
 				}
 
 			}
@@ -953,6 +967,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-179", 0 ]
 				}
 
 			}
@@ -1398,49 +1421,49 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "pattr-control.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/20150127/01-objects-intro/lib",
-				"patcherrelativepath" : "../../../20150127/01-objects-intro/lib",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/externals",
+				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "read-write-pattr.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/20150127/01-objects-intro/lib",
-				"patcherrelativepath" : "../../../20150127/01-objects-intro/lib",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/externals",
+				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetime.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/20150127/01-objects-intro/lib",
-				"patcherrelativepath" : "../../../20150127/01-objects-intro/lib",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/externals",
+				"patcherrelativepath" : "../externals",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-output-picker.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "modular.stereo-input-picker.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "control-poly-status-i.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ht.bgcolors.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/music264-spring-2015/music-264-modular/lib/abstractions",
+				"bootpath" : "/Volumes/Studio Transfer/music264-spring-2015/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
