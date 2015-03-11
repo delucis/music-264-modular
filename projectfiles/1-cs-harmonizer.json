@@ -1,0 +1,41 @@
+{
+	"pattrstorage" : 	{
+		"name" : "1-cs-harmonizer",
+		"slots" : 		{
+			"60" : 			{
+				"id" : 60,
+				"data" : 				{
+					"1-voices" : [ 1 ],
+					"live.gain~" : [ 0.0 ],
+					"transp-amt" : [ 7.2 ],
+					"transp-vol" : [ 0.2 ],
+					"modular.stereo-input-picker::1-source" : [ "1-adc" ],
+					"modular.stereo-input-picker::2-source" : [ "1-adc" ],
+					"modular.stereo-output-picker::1-destination" : [ "1-dac" ],
+					"modular.stereo-output-picker::2-destination" : [ "1-dac" ],
+					"control-poly-status-i::LED" : [ 1 ]
+				}
+
+			}
+,
+			"61" : 			{
+				"id" : 61,
+				"data" : 				{
+					"1-voices" : [ 1 ],
+					"live.gain~" : [ 0.0 ],
+					"transp-amt" : [ 1.44 ],
+					"transp-vol" : [ 0.7 ],
+					"modular.stereo-input-picker::1-source" : [ "1-adc" ],
+					"modular.stereo-input-picker::2-source" : [ "1-adc" ],
+					"modular.stereo-output-picker::1-destination" : [ "1-dac" ],
+					"modular.stereo-output-picker::2-destination" : [ "1-dac" ],
+					"control-poly-status-i::LED" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

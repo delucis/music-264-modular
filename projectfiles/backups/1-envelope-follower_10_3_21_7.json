@@ -1,0 +1,49 @@
+{
+	"pattrstorage" : 	{
+		"name" : "1-envelope-follower[1]",
+		"slots" : 		{
+			"60" : 			{
+				"id" : 60,
+				"data" : 				{
+					"env-attack" : [ 1.0 ],
+					"env-decay" : [ 1.0 ],
+					"env-log/lin-choice" : [ "Log" ],
+					"env-scale-power-sensitivity" : [ 0.5 ],
+					"gating-knee" : [ 0.0 ],
+					"gating-threshold" : [ 0.01 ],
+					"input-gain" : [ 6.0 ],
+					"input-name" : [ "1-adc" ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 0.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"output-max" : [ 1.0 ],
+					"output-min" : [ 0.0 ]
+				}
+
+			}
+,
+			"61" : 			{
+				"id" : 61,
+				"data" : 				{
+					"env-attack" : [ 1.0 ],
+					"env-decay" : [ 1.0 ],
+					"env-log/lin-choice" : [ "Log" ],
+					"env-scale-power-sensitivity" : [ 0.5 ],
+					"gating-knee" : [ 0.0 ],
+					"gating-threshold" : [ 0.01 ],
+					"input-gain" : [ 6.0 ],
+					"input-name" : [ "1-adc" ],
+					"live.toggle[1]" : [ 0.0 ],
+					"live.toggle[2]" : [ 0.0 ],
+					"live.toggle[3]" : [ 0.0 ],
+					"output-max" : [ 1.0 ],
+					"output-min" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
