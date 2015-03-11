@@ -43,8 +43,8 @@
 					"transp-vol" : [ 0.2, 0.5, 0.4, 0.8, 0.0 ],
 					"modular.stereo-input-picker::1-source" : [ "1-bus" ],
 					"modular.stereo-input-picker::2-source" : [ "2-bus" ],
-					"modular.stereo-output-picker::1-destination" : [ "3-dac" ],
-					"modular.stereo-output-picker::2-destination" : [ "4-dac" ],
+					"modular.stereo-output-picker::1-destination" : [ "1-dac" ],
+					"modular.stereo-output-picker::2-destination" : [ "1-dac" ],
 					"control-poly-status-i::LED" : [ 1 ]
 				}
 
