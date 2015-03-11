@@ -1860,6 +1860,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"args" : [ 2, "harmoniser", "green" ],
@@ -1868,7 +1869,7 @@
 													"name" : "cs.audio-harmonizer.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 458.0, 9.0, 219.0, 269.0 ],
+													"patching_rect" : [ 721.0, 8.0, 219.0, 269.0 ],
 													"varname" : "cs.audio-harmonizer[1]"
 												}
 
@@ -1881,7 +1882,7 @@
 													"name" : "cs.audio-harmonizer.maxpat",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 235.0, 9.0, 215.0, 269.0 ],
+													"patching_rect" : [ 498.0, 8.0, 215.0, 269.0 ],
 													"varname" : "cs.audio-harmonizer"
 												}
 
@@ -1919,20 +1920,7 @@
 											}
 , 											{
 												"box" : 												{
-													"args" : [ 2, "audio-filter", "blue" ],
-													"id" : "obj-3",
-													"maxclass" : "bpatcher",
-													"name" : "audio-filter.maxpat",
-													"numinlets" : 0,
-													"numoutlets" : 0,
-													"patching_rect" : [ 438.0, 285.0, 427.0, 174.0 ],
-													"varname" : "ht.noise-filter[1]"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"args" : [ 1, "audio-filter", "blue" ],
+													"args" : [ 1, "blue" ],
 													"id" : "obj-5",
 													"maxclass" : "bpatcher",
 													"name" : "audio-filter.maxpat",
@@ -5783,30 +5771,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-36" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-7::obj-3::obj-2::obj-14" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-3::obj-34" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-7::obj-3::obj-2::obj-225" : [ "live.dial[4]", "Knee", 0 ],
+			"obj-7::obj-3::obj-2::obj-14" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-7::obj-3::obj-2::obj-10" : [ "live.toggle[1]", "live.toggle[1]", 0 ],
 			"obj-7::obj-1::obj-7::obj-34" : [ "number[1]", "number", 0 ],
-			"obj-3::obj-32" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-7::obj-1::obj-7::obj-38" : [ "live.gain~[11]", "output gain", 0 ],
+			"obj-3::obj-33" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-3::obj-36" : [ "live.gain~[11]", "live.gain~", 0 ],
 			"obj-7::obj-3::obj-2::obj-15" : [ "live.toggle[2]", "live.toggle[1]", 0 ],
 			"obj-134" : [ "toggle[3]", "toggle[3]", 0 ],
 			"obj-7::obj-3::obj-2::obj-17" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-3::obj-28" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-3::obj-35" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-7::obj-3::obj-2::obj-214" : [ "live.dial", "Attack", 0 ],
-			"obj-3::obj-31" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-3::obj-28" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-7::obj-1::obj-1::obj-38" : [ "live.gain~", "output gain", 0 ],
-			"obj-7::obj-3::obj-2::obj-119" : [ "live.gain~[1]", "Input", 0 ],
-			"obj-3::obj-33" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-7::obj-1::obj-7::obj-38" : [ "live.gain~[1]", "output gain", 0 ],
+			"obj-7::obj-3::obj-2::obj-119" : [ "live.gain~[4]", "Input", 0 ],
 			"obj-7::obj-3::obj-2::obj-222" : [ "live.dial[3]", "Thresh", 0 ],
 			"obj-7::obj-3::obj-2::obj-18" : [ "live.toggle[3]", "live.toggle[1]", 0 ],
 			"obj-7::obj-3::obj-2::obj-219" : [ "live.dial[2]", "Decay", 0 ],
 			"obj-7::obj-3::obj-2::obj-21" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-3::obj-35" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-3::obj-30" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-7::obj-1::obj-1::obj-34" : [ "number", "number", 0 ],
-			"obj-3::obj-30" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-3::obj-34" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-3::obj-31" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-3::obj-32" : [ "live.gain~[8]", "live.gain~", 0 ],
 			"obj-7::obj-1::obj-16::obj-21" : [ "live.gain~[3]", "live.gain~", 0 ]
 		}
 ,
@@ -5965,16 +5953,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "control-poly-status-i.maxpat",
+				"name" : "modular.filter2.maxpat",
 				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
 				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "2-filter.json",
-				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
-				"patcherrelativepath" : "./projectfiles",
+				"name" : "modular.receive-switcher.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "control-poly-onoff-i.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -6003,6 +5998,13 @@
 				"name" : "1-cs-harmonizer.json",
 				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/projectfiles",
 				"patcherrelativepath" : "./projectfiles",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "control-poly-status-i.maxpat",
+				"bootpath" : "/Users/hans/Dropbox/_DB_documents/GitHub/music-264-modular/lib/abstractions",
+				"patcherrelativepath" : "./lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
