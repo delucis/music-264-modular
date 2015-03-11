@@ -52,7 +52,7 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 23.0, 304.0, 28.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 982.0, 45.0, 28.0, 35.0 ],
+					"presentation_rect" : [ 6.0, 47.5, 28.0, 35.0 ],
 					"varname" : "control-poly-onoff-i"
 				}
 
@@ -343,8 +343,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 404.0, 165.0, 104.0, 20.0 ],
-					"text" : "s #1-filter-output2"
+					"patching_rect" : [ 404.0, 165.0, 112.0, 20.0 ],
+					"text" : "s #1-filter2-output2"
 				}
 
 			}
@@ -356,8 +356,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 269.0, 165.0, 104.0, 20.0 ],
-					"text" : "s #1-filter-output1"
+					"patching_rect" : [ 269.0, 165.0, 111.0, 20.0 ],
+					"text" : "s #1-filter2-output1"
 				}
 
 			}
@@ -369,8 +369,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 165.0, 97.0, 20.0 ],
-					"text" : "s #1-filter-input2"
+					"patching_rect" : [ 150.0, 165.0, 103.0, 20.0 ],
+					"text" : "s #1-filter2-input2"
 				}
 
 			}
@@ -382,8 +382,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 165.0, 97.0, 20.0 ],
-					"text" : "s #1-filter-input1"
+					"patching_rect" : [ 15.0, 165.0, 103.0, 20.0 ],
+					"text" : "s #1-filter2-input1"
 				}
 
 			}
@@ -640,12 +640,12 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 645.0, 495.0, 59.5, 20.0 ],
 					"restore" : 					{
-						"filter-freq" : [ 871.957886 ],
-						"filter-gain" : [ 1.0 ],
+						"filter-freq" : [ 1066.050049 ],
+						"filter-gain" : [ 16.0 ],
 						"filter-menu" : [ "peaknotch" ],
-						"filter-q" : [ 1.5 ],
+						"filter-q" : [ 4.553593 ],
 						"input-vol" : [ 0.730769 ],
-						"output-vol" : [ 0.6 ]
+						"output-vol" : [ 0.761538 ]
 					}
 ,
 					"text" : "autopattr",
@@ -841,7 +841,7 @@
 					"patching_rect" : [ 555.0, 195.0, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.0, 47.5, 169.0, 119.0 ],
-					"setfilter" : [ 0, 5, 0, 0, 0, 871.957886, 1.0, 1.5, 0.0001, 22050.0, 0.0001, 16.0, 0.5, 25.0 ]
+					"setfilter" : [ 0, 5, 0, 0, 0, 1066.050049, 16.0, 4.553593, 0.0001, 22050.0, 0.0001, 16.0, 0.5, 25.0 ]
 				}
 
 			}
